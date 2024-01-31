@@ -1,0 +1,363 @@
+﻿using System;
+using System.Runtime.CompilerServices;
+using EFT;
+
+// Token: 0x02000503 RID: 1283
+[Serializable]
+public class BotGlobalsMindSettings
+{
+	// Token: 0x06001F9C RID: 8092 RVA: 0x00002050 File Offset: 0x00000250
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public void Update()
+	{
+		throw null;
+	}
+
+	// Token: 0x04001D0A RID: 7434
+	public int MIN_SHOOTS_TIME;
+
+	// Token: 0x04001D0B RID: 7435
+	public int MAX_SHOOTS_TIME;
+
+	// Token: 0x04001D0C RID: 7436
+	public float TIME_TO_RUN_TO_COVER_CAUSE_SHOOT_SEC;
+
+	// Token: 0x04001D0D RID: 7437
+	public float DAMAGE_REDUCTION_TIME_SEC;
+
+	// Token: 0x04001D0E RID: 7438
+	public float MIN_DAMAGE_SCARE;
+
+	// Token: 0x04001D0F RID: 7439
+	public float CHANCE_TO_RUN_CAUSE_DAMAGE_0_100;
+
+	// Token: 0x04001D10 RID: 7440
+	public float TIME_TO_FORGOR_ABOUT_ENEMY_SEC;
+
+	// Token: 0x04001D11 RID: 7441
+	public float TIME_TO_FIND_ENEMY;
+
+	// Token: 0x04001D12 RID: 7442
+	public float MAX_AGGRO_BOT_DIST;
+
+	// Token: 0x04001D13 RID: 7443
+	public float HIT_POINT_DETECTION;
+
+	// Token: 0x04001D14 RID: 7444
+	public float DANGER_POINT_CHOOSE_COEF;
+
+	// Token: 0x04001D15 RID: 7445
+	public float SIMPLE_POINT_CHOOSE_COEF;
+
+	// Token: 0x04001D16 RID: 7446
+	public float LASTSEEN_POINT_CHOOSE_COEF;
+
+	// Token: 0x04001D17 RID: 7447
+	public float COVER_DIST_COEF;
+
+	// Token: 0x04001D18 RID: 7448
+	public float DIST_TO_FOUND_SQRT;
+
+	// Token: 0x04001D19 RID: 7449
+	public bool SEARCH_TARGET;
+
+	// Token: 0x04001D1A RID: 7450
+	public bool ENEMY_BY_GROUPS_PMC_PLAYERS;
+
+	// Token: 0x04001D1B RID: 7451
+	public bool ENEMY_BY_GROUPS_SAVAGE_PLAYERS;
+
+	// Token: 0x04001D1C RID: 7452
+	public bool BOSS_IGNORE_LOYALTY;
+
+	// Token: 0x04001D1D RID: 7453
+	public EWarnBehaviour DEFAULT_BEAR_BEHAVIOUR;
+
+	// Token: 0x04001D1E RID: 7454
+	public EWarnBehaviour DEFAULT_USEC_BEHAVIOUR;
+
+	// Token: 0x04001D1F RID: 7455
+	public EWarnBehaviour DEFAULT_SAVAGE_BEHAVIOUR;
+
+	// Token: 0x04001D20 RID: 7456
+	public WildSpawnType[] FRIENDLY_BOT_TYPES;
+
+	// Token: 0x04001D21 RID: 7457
+	public WildSpawnType[] WARN_BOT_TYPES;
+
+	// Token: 0x04001D22 RID: 7458
+	public WildSpawnType[] ENEMY_BOT_TYPES;
+
+	// Token: 0x04001D23 RID: 7459
+	public WildSpawnType[] REVENGE_BOT_TYPES;
+
+	// Token: 0x04001D24 RID: 7460
+	public bool FOLLOWER_AND_BOSS_WARN_EQUAL_PRIORITY;
+
+	// Token: 0x04001D25 RID: 7461
+	public float MAX_AGGRO_BOT_DIST_UPPER_LIMIT;
+
+	// Token: 0x04001D26 RID: 7462
+	public float MAX_AGGRO_BOT_DIST_SQR_UPPER_LIMIT;
+
+	// Token: 0x04001D27 RID: 7463
+	public float MAX_AGGRO_BOT_DIST_SQR;
+
+	// Token: 0x04001D28 RID: 7464
+	public float DIST_TO_STOP_RUN_ENEMY;
+
+	// Token: 0x04001D29 RID: 7465
+	public float ENEMY_LOOK_AT_ME_ANG;
+
+	// Token: 0x04001D2A RID: 7466
+	public float MIN_START_AGGRESION_COEF;
+
+	// Token: 0x04001D2B RID: 7467
+	public float MAX_START_AGGRESION_COEF;
+
+	// Token: 0x04001D2C RID: 7468
+	public float BULLET_FEEL_DIST;
+
+	// Token: 0x04001D2D RID: 7469
+	public float BULLET_FEEL_CLOSE_SDIST;
+
+	// Token: 0x04001D2E RID: 7470
+	public float ATTACK_IMMEDIATLY_CHANCE_0_100;
+
+	// Token: 0x04001D2F RID: 7471
+	public float CHANCE_FUCK_YOU_ON_CONTACT_100;
+
+	// Token: 0x04001D30 RID: 7472
+	public float FRIEND_DEAD_AGR_LOW;
+
+	// Token: 0x04001D31 RID: 7473
+	public float FRIEND_AGR_KILL;
+
+	// Token: 0x04001D32 RID: 7474
+	public float LAST_ENEMY_LOOK_TO;
+
+	// Token: 0x04001D33 RID: 7475
+	public bool CAN_RECEIVE_PLAYER_REQUESTS_BEAR;
+
+	// Token: 0x04001D34 RID: 7476
+	public bool CAN_RECEIVE_PLAYER_REQUESTS_USEC;
+
+	// Token: 0x04001D35 RID: 7477
+	public bool CAN_RECEIVE_PLAYER_REQUESTS_SAVAGE;
+
+	// Token: 0x04001D36 RID: 7478
+	public bool REVENGE_TO_GROUP;
+
+	// Token: 0x04001D37 RID: 7479
+	public bool REVENGE_FOR_SAVAGE_PLAYERS;
+
+	// Token: 0x04001D38 RID: 7480
+	public bool CAN_USE_MEDS;
+
+	// Token: 0x04001D39 RID: 7481
+	public float SUSPETION_POINT_CHANCE_ADD100;
+
+	// Token: 0x04001D3A RID: 7482
+	public bool AMBUSH_WHEN_UNDER_FIRE;
+
+	// Token: 0x04001D3B RID: 7483
+	public float AMBUSH_WHEN_UNDER_FIRE_TIME_RESIST;
+
+	// Token: 0x04001D3C RID: 7484
+	public float ATTACK_ENEMY_IF_PROTECT_DELTA_LAST_TIME_SEEN;
+
+	// Token: 0x04001D3D RID: 7485
+	public float HOLD_IF_PROTECT_DELTA_LAST_TIME_SEEN;
+
+	// Token: 0x04001D3E RID: 7486
+	public float FIND_COVER_TO_GET_POSITION_WITH_SHOOT;
+
+	// Token: 0x04001D3F RID: 7487
+	public bool PROTECT_TIME_REAL;
+
+	// Token: 0x04001D40 RID: 7488
+	public float CHANCE_SHOOT_WHEN_WARN_PLAYER_100;
+
+	// Token: 0x04001D41 RID: 7489
+	public bool CAN_PANIC_IS_PROTECT;
+
+	// Token: 0x04001D42 RID: 7490
+	public bool NO_RUN_AWAY_FOR_SAFE;
+
+	// Token: 0x04001D43 RID: 7491
+	public float PART_PERCENT_TO_HEAL;
+
+	// Token: 0x04001D44 RID: 7492
+	public float PROTECT_DELTA_HEAL_SEC;
+
+	// Token: 0x04001D45 RID: 7493
+	public bool CAN_STAND_BY;
+
+	// Token: 0x04001D46 RID: 7494
+	public bool CAN_THROW_REQUESTS;
+
+	// Token: 0x04001D47 RID: 7495
+	public float GROUP_ANY_PHRASE_DELAY;
+
+	// Token: 0x04001D48 RID: 7496
+	public float GROUP_EXACTLY_PHRASE_DELAY;
+
+	// Token: 0x04001D49 RID: 7497
+	public float GROUP_EXACTLY_PHRASE_DELAY_MAX;
+
+	// Token: 0x04001D4A RID: 7498
+	public float DIST_TO_ENEMY_YO_CAN_HEAL;
+
+	// Token: 0x04001D4B RID: 7499
+	public float CHANCE_TO_STAY_WHEN_WARN_PLAYER_100;
+
+	// Token: 0x04001D4C RID: 7500
+	public float DOG_FIGHT_OUT;
+
+	// Token: 0x04001D4D RID: 7501
+	public float DOG_FIGHT_IN;
+
+	// Token: 0x04001D4E RID: 7502
+	public float SHOOT_INSTEAD_DOG_FIGHT;
+
+	// Token: 0x04001D4F RID: 7503
+	public float PISTOL_SHOTGUN_AMBUSH_DIST;
+
+	// Token: 0x04001D50 RID: 7504
+	public float STANDART_AMBUSH_DIST;
+
+	// Token: 0x04001D51 RID: 7505
+	public float AI_POWER_COEF;
+
+	// Token: 0x04001D52 RID: 7506
+	public float COVER_SECONDS_AFTER_LOSE_VISION;
+
+	// Token: 0x04001D53 RID: 7507
+	public bool COVER_SELF_ALWAYS_IF_DAMAGED;
+
+	// Token: 0x04001D54 RID: 7508
+	public float SEC_TO_MORE_DIST_TO_RUN;
+
+	// Token: 0x04001D55 RID: 7509
+	public float HEAL_DELAY_SEC;
+
+	// Token: 0x04001D56 RID: 7510
+	public float HIT_DELAY_WHEN_HAVE_SMT;
+
+	// Token: 0x04001D57 RID: 7511
+	public float HIT_DELAY_WHEN_PEACE;
+
+	// Token: 0x04001D58 RID: 7512
+	public bool TALK_WITH_QUERY;
+
+	// Token: 0x04001D59 RID: 7513
+	public float DANGER_EXPIRE_TIME_MIN;
+
+	// Token: 0x04001D5A RID: 7514
+	public float DANGER_EXPIRE_TIME_MAX;
+
+	// Token: 0x04001D5B RID: 7515
+	public float PANIC_RUN_WEIGHT;
+
+	// Token: 0x04001D5C RID: 7516
+	public float PANIC_SIT_WEIGHT;
+
+	// Token: 0x04001D5D RID: 7517
+	public float PANIC_LAY_WEIGHT;
+
+	// Token: 0x04001D5E RID: 7518
+	public float PANIC_NONE_WEIGHT;
+
+	// Token: 0x04001D5F RID: 7519
+	public float PANIC_SIT_WEIGHT_PEACE;
+
+	// Token: 0x04001D60 RID: 7520
+	public bool CAN_EXECUTE_REQUESTS;
+
+	// Token: 0x04001D61 RID: 7521
+	public float DIST_TO_ENEMY_SPOTTED_ON_HIT;
+
+	// Token: 0x04001D62 RID: 7522
+	public float UNDER_FIRE_PERIOD;
+
+	// Token: 0x04001D63 RID: 7523
+	public bool MEDS_ONLY_SAFE_CONTAINER;
+
+	// Token: 0x04001D64 RID: 7524
+	public bool CAN_DROP_ITEMS;
+
+	// Token: 0x04001D65 RID: 7525
+	public bool CAN_TAKE_ITEMS;
+
+	// Token: 0x04001D66 RID: 7526
+	public float THROW_DIST_TO_SEE;
+
+	// Token: 0x04001D67 RID: 7527
+	public bool CAN_TAKE_ANY_ITEM;
+
+	// Token: 0x04001D68 RID: 7528
+	public bool WILL_PERSUE_AXEMAN;
+
+	// Token: 0x04001D69 RID: 7529
+	public float MAX_DIST_TO_RUN_PERSUE_AXEMAN;
+
+	// Token: 0x04001D6A RID: 7530
+	public float MAX_DIST_TO_PERSUE_AXEMAN;
+
+	// Token: 0x04001D6B RID: 7531
+	public bool SURGE_KIT_ONLY_SAFE_CONTAINER;
+
+	// Token: 0x04001D6C RID: 7532
+	public bool CAN_USE_LONG_COVER_POINTS;
+
+	// Token: 0x04001D6D RID: 7533
+	public bool CAN_USE_FOOD_DRINK;
+
+	// Token: 0x04001D6E RID: 7534
+	public float FOOD_DRINK_DELAY_SEC;
+
+	// Token: 0x04001D6F RID: 7535
+	public int HOW_WORK_OVER_DEAD_BODY;
+
+	// Token: 0x04001D70 RID: 7536
+	public float DEADBODYWORK_INITIAL_DELAY;
+
+	// Token: 0x04001D71 RID: 7537
+	public float DEADBODYWORK_CHECK_ITEMS_DELAY;
+
+	// Token: 0x04001D72 RID: 7538
+	public float DEADBODYWORK_MOVE_ITEMS_DELAY;
+
+	// Token: 0x04001D73 RID: 7539
+	public float DEADBODYWORK_DROP_ITEMS_DELAY;
+
+	// Token: 0x04001D74 RID: 7540
+	public bool CAN_TALK;
+
+	// Token: 0x04001D75 RID: 7541
+	public bool ACTIVE_FORCE_ATTACK_EVENTS;
+
+	// Token: 0x04001D76 RID: 7542
+	public bool ACTIVE_FOLLOW_PLAYER_EVENTS;
+
+	// Token: 0x04001D77 RID: 7543
+	public bool MAY_BE_CALLED_FOR_HELP;
+
+	// Token: 0x04001D78 RID: 7544
+	public int GIFTER_ADDITIONAL_GIFTS;
+
+	// Token: 0x04001D79 RID: 7545
+	public float ANGLE_TO_SHOOT_BTR;
+
+	// Token: 0x04001D7A RID: 7546
+	public float ROTATION_SPEED_BTR;
+
+	// Token: 0x04001D7B RID: 7547
+	public bool IGNORE_ANOTHER_BOTS_BEING_HIT;
+
+	// Token: 0x04001D7C RID: 7548
+	public float AVOID_BTR_RADIUS_SQR;
+
+	// Token: 0x04001D7D RID: 7549
+	public bool SNIPER_FIRE_IMMUNE;
+}

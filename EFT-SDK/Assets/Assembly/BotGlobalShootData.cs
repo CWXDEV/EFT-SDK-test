@@ -1,0 +1,206 @@
+﻿using System;
+using System.Runtime.CompilerServices;
+
+// Token: 0x020004FC RID: 1276
+[Serializable]
+public class BotGlobalShootData
+{
+	// Token: 0x06001F95 RID: 8085 RVA: 0x00002050 File Offset: 0x00000250
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	public void Update()
+	{
+		throw null;
+	}
+
+	// Token: 0x04001BDD RID: 7133
+	public float RECOIL_TIME_NORMALIZE;
+
+	// Token: 0x04001BDE RID: 7134
+	public float RECOIL_PER_METER;
+
+	// Token: 0x04001BDF RID: 7135
+	public float MAX_RECOIL_PER_METER;
+
+	// Token: 0x04001BE0 RID: 7136
+	public float HORIZONT_RECOIL_COEF;
+
+	// Token: 0x04001BE1 RID: 7137
+	public float WAIT_NEXT_SINGLE_SHOT;
+
+	// Token: 0x04001BE2 RID: 7138
+	public float WAIT_NEXT_STATIONARY_BULLET;
+
+	// Token: 0x04001BE3 RID: 7139
+	public float WAIT_NEXT_STATIONARY_GRENADE;
+
+	// Token: 0x04001BE4 RID: 7140
+	public float WAIT_NEXT_SINGLE_SHOT_LONG_MAX;
+
+	// Token: 0x04001BE5 RID: 7141
+	public float WAIT_NEXT_SINGLE_SHOT_LONG_MIN;
+
+	// Token: 0x04001BE6 RID: 7142
+	public float MARKSMAN_DIST_SEK_COEF;
+
+	// Token: 0x04001BE7 RID: 7143
+	public float FINGER_HOLD_SINGLE_SHOT;
+
+	// Token: 0x04001BE8 RID: 7144
+	public float FINGER_HOLD_STATIONARY_BULLET;
+
+	// Token: 0x04001BE9 RID: 7145
+	public float FINGER_HOLD_STATIONARY_GRENADE;
+
+	// Token: 0x04001BEA RID: 7146
+	public float BASE_AUTOMATIC_TIME;
+
+	// Token: 0x04001BEB RID: 7147
+	public float AUTOMATIC_FIRE_SCATTERING_COEF;
+
+	// Token: 0x04001BEC RID: 7148
+	public float CHANCE_TO_CHANGE_TO_AUTOMATIC_FIRE_100;
+
+	// Token: 0x04001BED RID: 7149
+	public float FAR_DIST_ENEMY;
+
+	// Token: 0x04001BEE RID: 7150
+	public int SHOOT_FROM_COVER;
+
+	// Token: 0x04001BEF RID: 7151
+	public float FAR_DIST_ENEMY_SQR;
+
+	// Token: 0x04001BF0 RID: 7152
+	public float MAX_DIST_COEF;
+
+	// Token: 0x04001BF1 RID: 7153
+	public float RECOIL_DELTA_PRESS;
+
+	// Token: 0x04001BF2 RID: 7154
+	public float RUN_DIST_NO_AMMO;
+
+	// Token: 0x04001BF3 RID: 7155
+	public float RUN_DIST_NO_AMMO_SQRT;
+
+	// Token: 0x04001BF4 RID: 7156
+	public int CAN_SHOOTS_TIME_TO_AMBUSH;
+
+	// Token: 0x04001BF5 RID: 7157
+	public float NOT_TO_SEE_ENEMY_TO_WANT_RELOAD_PERCENT;
+
+	// Token: 0x04001BF6 RID: 7158
+	public float NOT_TO_SEE_ENEMY_TO_WANT_RELOAD_SEC;
+
+	// Token: 0x04001BF7 RID: 7159
+	public float RELOAD_PECNET_NO_ENEMY;
+
+	// Token: 0x04001BF8 RID: 7160
+	public float CHANCE_TO_CHANGE_WEAPON;
+
+	// Token: 0x04001BF9 RID: 7161
+	public float CHANCE_TO_CHANGE_WEAPON_WITH_HELMET;
+
+	// Token: 0x04001BFA RID: 7162
+	public float LOW_DIST_TO_CHANGE_WEAPON;
+
+	// Token: 0x04001BFB RID: 7163
+	public float FAR_DIST_TO_CHANGE_WEAPON;
+
+	// Token: 0x04001BFC RID: 7164
+	public float SUPPRESS_BY_SHOOT_TIME;
+
+	// Token: 0x04001BFD RID: 7165
+	public int SUPPRESS_TRIGGERS_DOWN;
+
+	// Token: 0x04001BFE RID: 7166
+	public int SUPPRESS_TRIGGERS_DOWN_AS_LIST;
+
+	// Token: 0x04001BFF RID: 7167
+	public float DIST_TO_CHANGE_TO_MAIN;
+
+	// Token: 0x04001C00 RID: 7168
+	public float AGS_17_DIST_TO_LEAVE;
+
+	// Token: 0x04001C01 RID: 7169
+	public float DIST_TO_HIT_MELEE;
+
+	// Token: 0x04001C02 RID: 7170
+	public float DIST_TO_HIT_MELEE_CONTINUE_COMBO;
+
+	// Token: 0x04001C03 RID: 7171
+	public float DIST_TO_STOP_SPRINT_MELEE;
+
+	// Token: 0x04001C04 RID: 7172
+	public float TRY_HIT_PERIOD_MELEE;
+
+	// Token: 0x04001C05 RID: 7173
+	public float BLOCK_PERIOD_WHEN_LAY;
+
+	// Token: 0x04001C06 RID: 7174
+	public float CHANGE_WEAPON_PERIOD;
+
+	// Token: 0x04001C07 RID: 7175
+	public bool USE_MELEE_COMBOS;
+
+	// Token: 0x04001C08 RID: 7176
+	public float MELEE_RESET_HIT_TIME;
+
+	// Token: 0x04001C09 RID: 7177
+	public float MELEE_STOP_MOVE_DISTANCE;
+
+	// Token: 0x04001C0A RID: 7178
+	public int VALIDATE_MALFUNCTION_CHANCE;
+
+	// Token: 0x04001C0B RID: 7179
+	public int REPAIR_MALFUNCTION_IMMEDIATE_CHANCE;
+
+	// Token: 0x04001C0C RID: 7180
+	public float DELAY_BEFORE_EXAMINE_MALFUNCTION;
+
+	// Token: 0x04001C0D RID: 7181
+	public float DELAY_BEFORE_FIX_MALFUNCTION;
+
+	// Token: 0x04001C0E RID: 7182
+	public bool TRY_CHANGE_WEAPON_INSTEAD_RELOAD;
+
+	// Token: 0x04001C0F RID: 7183
+	public float MIN_DIST_TO_ENEMY_TO_CHANGE_WEAPON_INSTEAD_RELOAD;
+
+	// Token: 0x04001C10 RID: 7184
+	public float CHANCE_TO_CHANGE_WEAPON_INSTEAD_RELOAD;
+
+	// Token: 0x04001C11 RID: 7185
+	public float CHANCE_TO_CHANGE_WEAPON_INSTEAD_RELOAD_ENEMY_WITHOUT_HELM;
+
+	// Token: 0x04001C12 RID: 7186
+	public float MELEE_STOP_DIST;
+
+	// Token: 0x04001C13 RID: 7187
+	public bool CHANGE_TO_MAIN_WEAPON_WHEN_PATROL;
+
+	// Token: 0x04001C14 RID: 7188
+	public float SHOOT_IMMEDIATELY_DIST;
+
+	// Token: 0x04001C15 RID: 7189
+	public bool CAN_STOP_SHOOT_CAUSE_ANIMATOR;
+
+	// Token: 0x04001C16 RID: 7190
+	public bool TRY_CHANGE_WEAPON_WHEN_RELOAD;
+
+	// Token: 0x04001C17 RID: 7191
+	public bool CHANGE_TO_MAIN_WHEN_SUPPORT_NO_AMMO;
+
+	// Token: 0x04001C18 RID: 7192
+	public float LAST_SEEN_TIME_TO_START_SUPPRESS_STATIONARY_AGS;
+
+	// Token: 0x04001C19 RID: 7193
+	public float STATIONARY_GRENADE_MIN_DIST_TO_TAKE;
+
+	// Token: 0x04001C1A RID: 7194
+	public double STATIONARY_SIMPLE_MIN_DIST_TO_TAKE;
+
+	// Token: 0x04001C1B RID: 7195
+	public bool NO_OFFSET_SHOOTING_FROM_PLAYER;
+
+	// Token: 0x04001C1C RID: 7196
+	public bool ALTERNATIVE_KNIFE_KICK;
+}
